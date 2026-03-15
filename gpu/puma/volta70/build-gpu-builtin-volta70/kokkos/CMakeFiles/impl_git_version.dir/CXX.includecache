@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/xdisk/chanc/home/ram/athenak/gpu/build-gpu-builtin/generated/Kokkos_Version_Info.cpp
+Kokkos_Version_Info.hpp
+/xdisk/chanc/home/ram/athenak/gpu/build-gpu-builtin/generated/Kokkos_Version_Info.hpp
+
+/xdisk/chanc/home/ram/athenak/gpu/build-gpu-builtin/generated/Kokkos_Version_Info.hpp
+string
+-
+

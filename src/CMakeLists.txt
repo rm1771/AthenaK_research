@@ -176,6 +176,8 @@ add_executable(
         z4c/z4c_calculate_weyl_scalars.cpp
         z4c/z4c_wave_extr.cpp
         z4c/z4c_amr.cpp
+        z4c/z4c_puncture_tracker.cpp
+        z4c/z4c_punctures.cpp
         z4c/cce/cce.cpp
 )
 

@@ -1,0 +1,2 @@
+/xdisk/chanc/home/ram/athenak/gpu/ocelote/pascal/build-gpu-torus-mad-pascal/kokkos/CMakeFiles/CheckCUDA/CMakeFiles/rebuild_cache.dir
+/xdisk/chanc/home/ram/athenak/gpu/ocelote/pascal/build-gpu-torus-mad-pascal/kokkos/CMakeFiles/CheckCUDA/CMakeFiles/edit_cache.dir
