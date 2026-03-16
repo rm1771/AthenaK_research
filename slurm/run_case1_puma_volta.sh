@@ -25,8 +25,8 @@ cd /xdisk/chanc/ram/outputs/case1
 date
 echo "Starting CASE 1: v=0, rho_default..."
 
-srun -n 2 /xdisk/chanc/home/ram/athenak/gpu/puma/volta70/build-gpu-torus-mad-volta70/src/athena \
-    -i /xdisk/chanc/home/ram/athenak/inputs/grmhd/gr_fm_torus_mad_long_case1.athinput
+srun -n 2 /xdisk/chanc/ram/AthenaK_research/gpu/puma/volta70/build-gpu-torus-mad-volta70/src/athena \
+    -i /xdisk/chanc/ram/AthenaK_research/inputs/grmhd/gr_fm_torus_mad_long_case1.athinput
 
 echo "Simulation completed."
 date
