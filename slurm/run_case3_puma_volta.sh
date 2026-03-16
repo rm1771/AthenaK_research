@@ -3,11 +3,11 @@
 
 #SBATCH --job-name=Torus_case3
 #SBATCH --nodes=1
-#SBATCH --ntasks=5
+#SBATCH --ntasks=2
 #SBATCH --mem=100gb
 #SBATCH --time=240:00:00
 #SBATCH --partition=gpu_standard
-#SBATCH --gres=gpu:volta:1
+#SBATCH --gres=gpu:volta:2
 #SBATCH --account=chanc
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ramadithya1771@arizona.edu
@@ -25,7 +25,7 @@ cd /xdisk/chanc/home/ram/athenak/runs/case3
 date
 echo "Starting CASE 3: vx=0.1c, rho=0.1*rho_peak..."
 
-/xdisk/chanc/home/ram/athenak/gpu/puma/volta70/build-gpu-torus-mad-volta70/src/athena \
+srun -n 2 /xdisk/chanc/home/ram/athenak/gpu/puma/volta70/build-gpu-torus-mad-volta70/src/athena \
     -i /xdisk/chanc/home/ram/athenak/inputs/grmhd/gr_fm_torus_mad_long_case3.athinput
 
 echo "Simulation completed."
