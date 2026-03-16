@@ -11,8 +11,8 @@
 #SBATCH --account=chanc
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=ramadithya1771@arizona.edu
-#SBATCH --output=athena_case6.out
-#SBATCH --error=athena_case6.err
+#SBATCH --output=/xdisk/chanc/ram/outputs/case6/athena_case6.out
+#SBATCH --error=/xdisk/chanc/ram/outputs/case6/athena_case6.err
 #SBATCH --verbose
 
 # Load CUDA module

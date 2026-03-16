@@ -3,6 +3,12 @@
 # Each job waits for the previous one to finish before starting.
 # Run this script from the repo root: bash slurm/submit_all_cases.sh
 
+# Create output directories first (SLURM needs them to exist for log files)
+for i in 1 2 3 4 5 6; do
+  mkdir -p /xdisk/chanc/ram/outputs/case${i}
+done
+echo "Output directories created."
+
 J1=$(sbatch --parsable slurm/run_case1_puma_volta.sh)
 echo "Submitted CASE 1: job $J1"
 
