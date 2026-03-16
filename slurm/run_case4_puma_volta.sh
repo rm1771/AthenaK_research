@@ -19,8 +19,8 @@
 module load cuda11/11.8
 
 # Navigate to run directory (create if it doesn't exist)
-mkdir -p /xdisk/chanc/home/ram/athenak/runs/case4
-cd /xdisk/chanc/home/ram/athenak/runs/case4
+mkdir -p /xdisk/chanc/ram/outputs/case4
+cd /xdisk/chanc/ram/outputs/case4
 
 date
 echo "Starting CASE 4: vz=0.1c, rho_default..."
